@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  color: #fff;
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, #ff4a00), color-stop(71%, #000000));
+  background: linear-gradient(90deg, #ff4a00 2%, #000000 71%);
+  background-size: 200% 100%;
+  -webkit-animation: body 20s ease-in-out infinite;
+          animation: body 20s ease-in-out infinite;
+}
+
+@-webkit-keyframes body {
+  0% {
+    background-position: 0 50%;
+  }
+  12% {
+    background-position: 100% 50%;
+  }
+  25% {
+    background-position: 0 50%;
+  }
+  37% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  62% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 0% 50%;
+  }
+  87% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes body {
+  0% {
+    background-position: 0 50%;
+  }
+  12% {
+    background-position: 100% 50%;
+  }
+  25% {
+    background-position: 0 50%;
+  }
+  37% {
+    background-position: 100% 50%;
+  }
+  50% {
+    background-position: 0% 50%;
+  }
+  62% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 0% 50%;
+  }
+  87% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  position: relative;
+  width: 1000px;
+  height: 600px;
+  background: url(../../img/ship.jpg) center center no-repeat;
+  background-size: cover;
+  border-radius: 10%;
+}
+
+.figure {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 7vw;
+  height: 7vw;
+  background: url(../../img/cat.png) center center no-repeat;
+  background-size: cover;
+  -webkit-animation: figure 20s infinite linear;
+          animation: figure 20s infinite linear;
+}
+
+@-webkit-keyframes figure {
+  25% {
+    -webkit-transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+            transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+    border-radius: 50%;
+  }
+  50% {
+    -webkit-transform: translateX(-850px) rotate(0deg) translateY(20px) rotate(0deg);
+            transform: translateX(-850px) rotate(0deg) translateY(20px) rotate(0deg);
+    border-radius: 0;
+  }
+  75% {
+    -webkit-transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+            transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+    border-radius: 50%;
+  }
+  100% {
+    -webkit-transform: translateX(0px) rotate(0deg) translateY(0px) rotate(0deg);
+            transform: translateX(0px) rotate(0deg) translateY(0px) rotate(0deg);
+    border-radius: 0;
+  }
+}
+
+@keyframes figure {
+  25% {
+    -webkit-transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+            transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+    border-radius: 50%;
+  }
+  50% {
+    -webkit-transform: translateX(-850px) rotate(0deg) translateY(20px) rotate(0deg);
+            transform: translateX(-850px) rotate(0deg) translateY(20px) rotate(0deg);
+    border-radius: 0;
+  }
+  75% {
+    -webkit-transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+            transform: translateX(-450px) rotate(0deg) translateY(460px) rotate(240deg);
+    border-radius: 50%;
+  }
+  100% {
+    -webkit-transform: translateX(0px) rotate(0deg) translateY(0px) rotate(0deg);
+            transform: translateX(0px) rotate(0deg) translateY(0px) rotate(0deg);
+    border-radius: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
